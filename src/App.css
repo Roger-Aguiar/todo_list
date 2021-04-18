@@ -1,5 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
+/*My styles*/
+
+.navbar_color
+{
+  background-color: darkblue;
+  color: white;
+}
+
+.listStyle
+{
+  display: block;
+  margin-left: 20px;
+  font-size:x-large;
+  color:darkblue; 
+}
+
+/*====================================================================================*/
+
 /* Global Styles */
 :root {
   --primary-color: #dc3545;
@@ -9,11 +27,6 @@
   --success-color: #28a745;
 }
 
-.navbar_color
-{
-  background-color: blue;
-  color: white;
-}
 
 * {
   box-sizing: border-box;
@@ -25,7 +38,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  background-color: #fff;
+  background-color:lightblue;
   color: #333;
 }
 
