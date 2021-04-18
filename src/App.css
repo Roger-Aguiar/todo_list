@@ -16,6 +16,49 @@
   color:darkblue; 
 }
 
+.labelFont
+{
+  margin-left: 20px;
+  color: darkblue;
+  font-size:x-large;
+}
+
+h2
+{
+  text-align: center;
+  flex-wrap: wrap;
+  color: darkblue;
+}
+
+input[type="text"]
+{
+  display: block;
+  margin: 0 auto;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.buttonStyle
+{
+  display: block;
+  margin: 0 auto;
+  margin-top: 1%;
+  width: 30%;
+  height: 40px;
+  font-size: larger;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  background-color: darkblue;
+}
+
+.inputContainer
+{  
+  padding: 0;
+  border-style: dashed;
+  height: 140px;
+  background-color: lightsteelblue;
+}
 /*====================================================================================*/
 
 /* Global Styles */
@@ -344,7 +387,7 @@ input[type='date'],
 select,
 textarea {
   display: block;
-  width: 100%;
+  width: 50%;
   padding: 0.4rem;
   font-size: 1.2rem;
   border: 1px solid #ccc;
